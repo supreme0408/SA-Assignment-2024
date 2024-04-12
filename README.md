@@ -194,29 +194,3 @@ npm start
 ```
 
 Application will be serving on http://localhost:3000
-
----
-
-## Deployment
-
-- Not setup yet
-
----
-
-## Author
-
-- Yu Chiu
-
----
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details
-
----
-
-## Acknowledgments
-
-- Not setup yet
-
----
