@@ -1,60 +1,4 @@
-# Netflix Clone
-
-- **Checkout branch "React-View" for frontend only Netflix Clone with React Redux**
-
----
-
-## Quick Links
-
-[Demo](#demo)
-
-- [Live Site Demo](#live-site-demo)
-- [Video Demo](#video-demo)
-
-[Tech Stack](#tech-stack)
-
-[Implementation Hightlights](#Implementation-Hightlights)
-
-- [User Stories](#user-stories)
-- [Current Plans for Expansion](#current-plans-for-expansion)
-- [Future Plans for Expansion](#future-plans-for-expansion)
-
-[Getting Started](#getting-started)
-
-- [Prerequisites](#prerequisites)
-
-  - [Tools & Versions](#tools-&-versions)
-
-- [Building Data Pipeline](#building-data-pipeline)
-
-  - [Data Fetcher](#data-fetcher)
-
-- [Serving Application](#serving-application)
-
-  - [Movie Service](#movie-service)
-  - [User Service](#user-service)
-  - [Web Server](#web-server)
-  - [Web Client](#web-client)
-
-[Deployment](#deployment)
-
-[Author](#author)
-
-[Acknowledgments](#acknowledgments)
-
----
-
-## Demo
-
-### Live Site Demo
-
-Demo: [Link](http://yuchiu-netflix.surge.sh/)
-
-### Video Demo
-
-![demogif](https://github.com/yuchiu/netflix-clone/blob/master/netflix-clone-optimize-gif-demo.gif)
-
----
+# Video Streaming Application
 
 ## Tech Stack
 
@@ -68,12 +12,10 @@ Demo: [Link](http://yuchiu-netflix.surge.sh/)
   - persisted database for movies
 - [Postgres](https://github.com/postgres/postgres) ∙ [Sequelize](https://github.com/sequelize/sequelize)
   - persisted database for users
-- [Kibana](https://github.com/elastic/kibana)
-  - ElasticSearch analytics data visualization
 
 ---
 
-## Implementation Highlights
+## Project Contents
 
 - single page application web client with React & Redux
 - service oriented architecure backend
@@ -83,7 +25,7 @@ Demo: [Link](http://yuchiu-netflix.surge.sh/)
 - persisted ElasticSearch for movie's database for optimized searching capability
 - PostgreSQL for user's database
 
-### User Stories
+### Functions
 
 - users can register and log in to their account
 - landing page has collections of movie for recommendations
@@ -92,26 +34,6 @@ Demo: [Link](http://yuchiu-netflix.surge.sh/)
 - users can select and view details of a movie
 - users can see his/her history of browsed movie
 - users can add or remove movie to his/her bookmark
-
-### Current Plans for Expansion
-
-- containerize services and database with Docker
-
-### Future Plans for Expansion
-
-- seperate search into its own service that utilize ElasticSearch, use MongoDB as persisted database for movie-service and sync data between ElasticSearch and MongoDB
-- Machine Learning recommendation system?
-- Machine Learning classification for recommended movie collections?
-- scrape and stream videos for movies?
-
----
-
-## Getting Started
-
-### Prerequisites
-
-**!important** .env file is required for setting up environment variables for this project  
- an example of .env file is located at root directory
 
 #### Tools & Versions
 
@@ -194,29 +116,3 @@ npm start
 ```
 
 Application will be serving on http://localhost:3000
-
----
-
-## Deployment
-
-- Not setup yet
-
----
-
-## Author
-
-- Yu Chiu
-
----
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details
-
----
-
-## Acknowledgments
-
-- Not setup yet
-
----
